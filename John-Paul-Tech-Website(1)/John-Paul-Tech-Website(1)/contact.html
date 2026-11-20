@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Contact John Paul Tech for website programming, graphic design, video editing, social media promotion and Facebook page setup.">
+  <meta name="theme-color" content="#071a3d">
+  <title>Contact | John Paul Tech</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header class="site-header">
+    <nav class="navbar container">
+      <a class="brand" href="index.html"><span class="brand-mark">JP</span><span>John Paul <strong>Tech</strong></span></a>
+      <button class="menu-toggle" aria-label="Open navigation" aria-expanded="false">☰</button>
+      <div class="nav-links">
+        <a href="index.html#home">Home</a>
+        <a href="index.html#services">Services</a>
+        <a href="contact.html">Contact</a>
+        <a href="#customer-service">Customer Service</a>
+        <button id="themeToggle" class="theme-toggle" type="button" aria-label="Toggle dark/light mode">☾</button>
+      </div>
+    </nav>
+  </header>
+
+  <main>
+    <section class="page-hero">
+      <div class="container reveal">
+        <span class="eyebrow">CONTACT JOHN PAUL TECH</span>
+        <h1>Let's talk about your <span>next project.</span></h1>
+        <p>Send a project enquiry, ask a question or contact customer service directly.</p>
+      </div>
+    </section>
+
+    <section class="contact-section section">
+      <div class="container contact-grid">
+        <div class="contact-info reveal">
+          <span class="eyebrow">GET IN TOUCH</span>
+          <h2>Choose your preferred way to contact me.</h2>
+          <p>For the fastest response, use WhatsApp or call directly.</p>
+
+          <a class="contact-card" href="tel:+2347026005421">
+            <span class="contact-icon">☎</span>
+            <span><small>CALL</small><strong>+234 702 600 5421</strong></span>
+          </a>
+          <a class="contact-card" href="https://wa.me/2349110317271" target="_blank" rel="noopener">
+            <span class="contact-icon">◉</span>
+            <span><small>WHATSAPP</small><strong>+234 911 031 7271</strong></span>
+          </a>
+          <a class="contact-card" href="mailto:johnpauledition1000@gmail.com">
+            <span class="contact-icon">✉</span>
+            <span><small>EMAIL</small><strong>johnpauledition1000@gmail.com</strong></span>
+          </a>
+          <a class="contact-card" href="https://www.tiktok.com/link/v2?aid=1988&lang=en&scene=bio_url&target=tiktok.com%2F%40johnpaulbackup1" target="_blank" rel="noopener">
+            <span class="contact-icon">♪</span>
+            <span><small>TIKTOK</small><strong>@johnpaulbackup1</strong></span>
+          </a>
+        </div>
+
+        <div class="form-card reveal delay-1">
+          <form id="contactForm">
+            <div class="form-row">
+              <label>Full Name<input id="name" type="text" placeholder="Your full name" required></label>
+              <label>Email<input id="email" type="email" placeholder="you@example.com" required></label>
+            </div>
+            <label>Phone Number<input id="phone" type="tel" placeholder="+234..." required></label>
+            <label>Service
+              <select id="service">
+                <option value="">Select a service</option>
+                <option>Website Programming</option>
+                <option>Graphic Design</option>
+                <option>Video Editing</option>
+                <option>Social Media Promotion</option>
+                <option>Facebook Page Setup</option>
+                <option>Other Enquiry</option>
+              </select>
+            </label>
+            <label>Project Details<textarea id="message" rows="6" placeholder="Tell me what you need..." required></textarea></label>
+            <button class="btn btn-primary form-submit" type="submit">Send via WhatsApp →</button>
+            <p class="form-note">Submitting this form opens WhatsApp with your enquiry prepared for John Paul Tech.</p>
+          </form>
+        </div>
+      </div>
+    </section>
+
+    <section id="customer-service" class="customer-section section">
+      <div class="container customer-box reveal">
+        <div>
+          <span class="eyebrow">CUSTOMER SERVICE</span>
+          <h2>Need help with an existing project?</h2>
+          <p>Contact customer service directly by WhatsApp, phone or email. Include your name and a short description of what you need.</p>
+        </div>
+        <div class="customer-actions">
+          <a class="btn btn-primary" href="https://wa.me/2349110317271?text=Hello%20John%20Paul%20Tech%2C%20I%20need%20customer%20service%20assistance." target="_blank" rel="noopener">WhatsApp Support</a>
+          <a class="btn btn-outline" href="tel:+2347026005421">Call Support</a>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="container footer-grid">
+      <div>
+        <a class="brand footer-brand" href="index.html"><span class="brand-mark">JP</span><span>John Paul <strong>Tech</strong></span></a>
+        <p>Professional digital services for businesses, creators and personal brands.</p>
+      </div>
+      <div class="footer-links">
+        <a href="index.html#home">Home</a><a href="index.html#services">Services</a><a href="contact.html">Contact</a><a href="#customer-service">Customer Service</a>
+      </div>
+      <div class="footer-contact">
+        <a href="tel:+2347026005421">+234 702 600 5421</a>
+        <a href="https://wa.me/2349110317271" target="_blank" rel="noopener">WhatsApp: +234 911 031 7271</a>
+        <a href="mailto:johnpauledition1000@gmail.com">johnpauledition1000@gmail.com</a>
+      </div>
+    </div>
+    <div class="container copyright">
+      <span>© <span id="year"></span> John Paul Tech. All rights reserved.</span>
+      <a href="https://www.johnpaultech.ong">www.johnpaultech.ong</a>
+    </div>
+  </footer>
+
+  <button id="backToTop" class="back-to-top" aria-label="Back to top">↑</button>
+  <script src="script.js"></script>
+</body>
+</html>
